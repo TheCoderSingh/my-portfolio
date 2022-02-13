@@ -1,0 +1,36 @@
+html,
+body,
+#root,
+.App,
+.page {
+  height: 100% !important;
+}
+
+body {
+  margin: 0;
+}
+
+/*** Temporary BS ***/
+.home {
+  background-color: red;
+}
+
+.projects {
+  background-color: green;
+}
+
+.about {
+  background-color: yellow;
+}
+
+.skills {
+  background-color: blue;
+}
+
+.contact {
+  background-color: orange;
+}
+
+.footer {
+  background-color: black;
+}
