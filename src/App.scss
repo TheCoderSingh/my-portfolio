@@ -10,6 +10,14 @@ body {
   margin: 0;
 }
 
+.home,
+.projects,
+.about,
+.skills,
+.contact {
+  min-height: 100%;
+}
+
 /*** Temporary BS ***/
 .home {
   background-color: red;
