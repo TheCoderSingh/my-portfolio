@@ -1,0 +1,10 @@
+@import "../../Imports.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -45px auto 0 auto;
+  width: 93%;
+  font-family: "Poppins", sans-serif;
+}
