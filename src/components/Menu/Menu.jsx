@@ -10,13 +10,19 @@ const Menu = () => {
 
   return (
     <div>
-      <div className={`menu ${isActive ? "open" : null}`} onClick={handleClick}>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <div className="navbar">
+        <p>JS</p>
+        <div
+          className={`menu ${isActive ? "open" : null}`}
+          onClick={handleClick}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <div
         className="menu-items"
