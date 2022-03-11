@@ -85,13 +85,14 @@
 }
 
 .menu-items {
-  height: 100vh;
+  height: calc(100vh - 100px);
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: $secondary;
+  padding-top: 100px;
 
   .menu-item {
     padding: 50px 0;
@@ -104,9 +105,9 @@
     margin: 0 auto 0 auto;
   }
 
-  // .menu-item:last-of-type {
-  //   border-bottom: none;
-  // }
+  .menu-item:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .navbar {

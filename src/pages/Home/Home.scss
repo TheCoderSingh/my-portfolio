@@ -1,10 +1,98 @@
 @import "../../Imports.scss";
 
-// .home {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   margin: -45px auto 0 auto;
-//   width: 93%;
-//   font-family: "Poppins", sans-serif;
-// }
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px auto 0 auto;
+  width: 85%;
+  font-family: "Poppins", sans-serif;
+
+  .greeting,
+  .name {
+    color: $primary;
+    font-size: 2.3em;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .username {
+    margin: 0;
+  }
+
+  .description {
+    font-size: 1.1em;
+    line-height: 1.7em;
+    padding-top: 15px;
+
+    .description-special {
+      color: $primary;
+    }
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    .icon-container {
+      background-color: $primary;
+      font-size: 2em;
+      color: #fff;
+      border-radius: 50%;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+
+      svg {
+        stroke-width: 1;
+      }
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin: 0;
+      color: $secondary;
+    }
+
+    p {
+      margin: 0;
+      color: $primary;
+    }
+  }
+
+  hr {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .section-1 {
+    margin-top: 30px;
+
+    .icon-container {
+      margin-right: 20px;
+    }
+  }
+
+  .section-2 {
+    justify-content: end;
+
+    .icon-container {
+      margin-left: 20px;
+    }
+
+    .section-title,
+    p {
+      text-align: right;
+    }
+  }
+
+  .section-arrow {
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    color: $primary;
+    margin-top: 40px;
+  }
+}

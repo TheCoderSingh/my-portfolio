@@ -1,5 +1,7 @@
 import "./Home.scss";
-import { BsCodeSlash } from "react-icons/bs";
+import { FaCode } from "react-icons/fa";
+import { RiArrowDownSLine } from "react-icons/ri";
+import { GiCoffeeCup } from "react-icons/gi";
 
 const Home = () => {
   return (
@@ -10,25 +12,41 @@ const Home = () => {
         <span>@TheCoderSingh</span>
       </p>
       <p className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-        suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-        lacus vel facilisis.
+        I believe we, the developers have the ability and the opportunity to
+        <span className="description-special">
+          {" "}
+          &ldquo;revolutionize the world through code&rdquo;
+        </span>
+        .
+        <br />
+        <br />
+        I&apos;m a{" "}
+        <span className="description-special">
+          Frontend/Full Stack Developer
+        </span>{" "}
+        currently looking for opportunities.
       </p>
-      <div className="section">
+      <div className="section section-1">
         <div className="icon-container">
-          <BsCodeSlash />
+          <FaCode />
         </div>
-        <p>Wanna skip to the good part?</p>
-        <p>View my projects</p>
+        <div>
+          <p className="section-title">Wanna skip to the good part?</p>
+          <p>View my projects</p>
+        </div>
       </div>
       <hr />
-      <div className="section">
-        <p>Wanna skip to the good part?</p>
-        <p>View my projects</p>
-        <div className="icon-container">
-          <BsCodeSlash />
+      <div className="section section-2">
+        <div>
+          <p className="section-title">Let&apos;s get a cup of coffee.</p>
+          <p>Contact Me</p>
         </div>
+        <div className="icon-container">
+          <GiCoffeeCup />
+        </div>
+      </div>
+      <div className="section-arrow">
+        <RiArrowDownSLine />
       </div>
     </div>
   );
